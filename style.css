@@ -1,0 +1,66 @@
+body {
+  background-color: pink;
+  background-image: url("https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif");
+  font-family: Courier, monospace;
+  background-size: cover;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h1 {
+color: white;
+font-family: cursive;
+font-size: 50px;
+line-height: 50px;
+}
+
+h2, h3 {
+color: white;
+font-family: cursive;
+font-size: 40px;
+line-height: 50px;
+}
+
+a {
+color: white;
+}
+
+a:hover {
+  font-size: 100px;
+  text-decoration: underline;
+}
+
+.list-inline li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px 20px;
+}
+
+.btn{
+  background-color: orange;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px 27px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover{
+  background-color: red;
+  color: white;
+}
+
+.card{
+  padding: 16px;
+  border-radius: 4px;
+  margin: 20px 0;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  border-top: 0.5px solid #550527;
+  border-right: 0.5px solid #550527;
+  border-bottom: 0.5px solid #550527;
+  border-left: 0.5px solid #550527;
+  border-color: white;
+}
